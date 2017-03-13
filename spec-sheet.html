@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+		<title>We Will Page Update Documentation</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<style type="text/css" media="screen">
+			
+			/* FONT STACK starts here */
+			
+			@font-face {
+			    font-family: "Akkurat Pro Light";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Akkurat Pro Light Italic";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Akkurat Pro Regular";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Akkurat Pro Italic";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProItalic.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Akkurat Pro Bold";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Akkurat Pro Bold Italic";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProBoldItalic.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Campton Book";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonBook.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Campton Bold";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonBold.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Campton Extra Bold";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonExtraBold.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			@font-face {
+			    font-family: "Campton Extra Light";
+			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff");
+			    font-weight: normal;
+			    font-style: normal
+			}
+			
+			/* FONT STACK Ends here */
+			
+/* 			BASE OVERRIDES */
+			body{
+				background: #401F68;
+				color: white;
+			}
+			
+			.headlines{
+				font-family: "Campton Bold", sans-serif !important;
+				color: #fff;
+				text-shadow: 1px 3px 2px rgba(0,0,0,0.2);
+				margin-bottom: 30px;
+			}
+			.headlines-pages{
+				font-family: "Campton Regular", sans-serif !important;
+				border-left: 5px solid #fff !important;
+				border-bottom: 1px solid #fff;
+				padding-bottom: 10px;
+				padding-left: 10px;
+			}
+			.sub-headlines{
+				font-family: "Akkurat Pro Regular", sans-serif;
+				font-size: medium;
+				margin-bottom: 5px;
+				text-decoration: underline;
+				margin-bottom: 10px;
+				font-size: 30px;
+			}
+			.bold{
+				font-weight: bold;
+				background: #4e2a84;
+				color: #fff;
+			}
+			code{
+				background: transparent;
+				color: #000;
+				font-weight: bold;
+			}
+			
+			div.font-stack{
+				background: #E4E0EE;
+				color: #000;
+				
+			}
+			
+			.change-ind{
+				font-family: "Akkurat Pro Light", sans-serif;
+				text-transform: uppercase;
+			}
+			
+		
+			h1.headlines:before,
+			h1.headlines:after{
+				background: url("http://common.northwestern.edu/v8/css/images/icons/grey-slash.svg") no-repeat 50%/17px 21px;
+				padding: 0 25px;
+				content: " ";				
+			}
+			
+			.container-fluid{
+				max-width: 1120px;
+				width: 100%;
+			}
+			
+			.email-link{
+				color: #fff;
+				font-weight: bold;
+				text-decoration: underline;
+			}
+			
+			.navbar-btn{
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			
+			.navbar-btn:hover{
+				background: #836EAA;
+				color: #4e2a84;
+			}
+			
+			h2.navbar-text.navbar-left{
+				color: #4e2a84;
+			}
+		</style>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-static-top textcenter">
+  <div class="container-fluid">
+	  <h2 class="navbar-text navbar-left">We Will Site - Spec Sheet</h2>
+   <ul class="nav nav-pills">
+	   <li>
+		   <a href="#global" class="btn btn-default navbar-btn">
+			   global styles
+		   </a>
+	   </li>
+	   <li>
+   		   <a href="#home" class="btn btn-default navbar-btn">
+			   home page styles
+		   </a>
+	   </li>
+	   <li>
+   		   <a href="#child" class="btn btn-default navbar-btn">
+			   child page styles
+		   </a>
+	   </li>
+   </ul>
+  </div>
+</nav>
+<div class="container">
+	<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<p>	
+					The changes included in this spec sheet are for the we will site to reflect the new brand styling provided by the university. Included in this doc you'll find font styles, overall layout adjustments and anything specifically related to the photoshop comps that were provided. If you have any questions please feel free to reach out to me directly <a href="mail:reynaldo.serantes@northwestern.edu" class="email-link">Rey Serantes.</a>
+				</p>
+			</div>
+		</div>
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12" align="center">
+				<h1 class="headlines">
+					We Will Site - Global Changes
+				</h1>
+			</div>
+		</div>
+		
+		<div class="row font-stack">
+			<div class="col-md-10 col-md-offset-1" id="global">
+				<h3 class="change-ind">
+					Global Changes to both layouts
+				</h3>
+				<h3 class="sub-headlines">Font Stack:</h3>
+				<br />
+				<span class="bold">
+					This is the font stack for the site
+				</span>
+				<br />	
+				<code>
+				@font-face { <br />	
+			    font-family: "Akkurat Pro Light";<br />	
+			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");<br />	
+			    font-weight: normal;<br />	
+			    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Akkurat Pro Light Italic";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Akkurat Pro Regular";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Akkurat Pro Italic";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProItalic.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Akkurat Pro Bold";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Akkurat Pro Bold Italic";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProBoldItalic.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Campton Book";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonBook.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Campton Bold";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonBold.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Campton Extra Bold";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonExtraBold.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				<br />	
+				@font-face {<br />	
+				    font-family: "Campton Extra Light";<br />	
+				    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff");<br />	
+				    font-weight: normal;<br />	
+				    font-style: normal<br />	
+				}<br />	
+				</code>
+				<h3 class="sub-headlines">Body Styles:</h3>
+				<span class="bold">	This is the styling for the body</span><br />
+				<code>
+					body{<br />	
+						font-family: "Akkurat Pro Regular", sans-serif !important;<br />
+					} <br />
+				</code>
+
+				<h3 class="sub-headlines">Navigation Styles:</h3>
+				<span class="bold">
+					This controls the color of the font family and color
+				</span>
+				<code>
+				<br />
+				.navbar .nav>li>a{<br/>
+					color: #4e2a84 !important;<br />	
+				}
+				</code>
+				<br /><br />
+				<span class="bold">This changes the header background color</span>
+				<br />
+				<code>
+					div#masthead{<br />	
+						background: #4e2a84;<br />
+					}<br />
+					<br />
+					div.navbar.navbar-inverse.navbar-static-top.mega-menu{<br />
+						background: #4e2a84;<br />
+					}<br />
+				</code>
+				<br />	
+				<span class="bold">
+					This changes the background color of the menu
+				</span>
+				<br />	
+				<code>
+					ul#ContentToplinks.nav.navbar-nav{<br />	
+						background: white;<br />	
+						padding-left: 20px;<br />
+						padding-right: 0px;<br />
+					}
+				</code>
+				<br /><br />
+				<span class="bold">	Caret style</span>
+				<br />
+				<code>
+					.navbar-inverse .nav li.dropdown>.dropdown-toggle .caret{<br />	
+						border-top-color: #4e2a84;<br />	
+						border-bottom-color: #4e2a84;<br />	
+					}
+				</code>
+				<br /><br />	
+				<span class="bold">
+					Caret Hover Styles
+				</span>
+				<br />	
+				<code>
+					.navbar-inverse .nav li.dropdown>a:hover .caret{<br />	
+						border-top-color: #401F68; <br />	
+						border-bottom-color: #401F68;<br />	
+					}
+				</code>
+				<h3 class="sub-headlines">Footer Styles:</h3>
+				<br />
+				<span class="bold">This changes the color of the footer</span>
+				<br />
+				<code>
+					footer.footer .lower-footer{<br />
+						background: #4e2a84;<br />
+						border-top: 1px solid #4e2a84;<br />
+					}<br />
+				</code>
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-12" id="home-page">
+				
+			</div>
+		</div>
+	</div>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script
+</body>
+</html>
