@@ -1,69 +1,79 @@
 /* FONT STACK starts here */
 			
-			@font-face {
+			@font-face,
+			.akkurat-light {
 			    font-family: "Akkurat Pro Light";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			akkurat-light-italic {
 			    font-family: "Akkurat Pro Light Italic";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.akkurat-regular {
 			    font-family: "Akkurat Pro Regular";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.akkurat-italic {
 			    font-family: "Akkurat Pro Italic";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProItalic.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.akkurat-bold {
 			    font-family: "Akkurat Pro Bold";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.akkurat-bold-italic {
 			    font-family: "Akkurat Pro Bold Italic";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProBoldItalic.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.campton-book {
 			    font-family: "Campton Book";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonBook.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.campton-bold {
 			    font-family: "Campton Bold";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonBold.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.campton-extra-bold {
 			    font-family: "Campton Extra Bold";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonExtraBold.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
 			}
 			
-			@font-face {
+			@font-face,
+			.campton-extra-light {
 			    font-family: "Campton Extra Light";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff");
 			    font-weight: normal;
