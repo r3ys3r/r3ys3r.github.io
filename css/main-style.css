@@ -159,6 +159,12 @@
 			
 			/* nav style */
 			
+			.nav-style{
+				list-style: none;
+				float: left;
+			}
+			
+			
 			.button-block{
 				text-align: center;
 				padding-top: 10px;
