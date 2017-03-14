@@ -9,7 +9,7 @@
 			}
 			
 			@font-face,
-			akkurat-light-italic {
+			.akkurat-light-italic {
 			    font-family: "Akkurat Pro Light Italic";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff");
 			    font-weight: normal;
