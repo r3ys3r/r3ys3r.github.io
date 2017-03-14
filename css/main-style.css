@@ -227,35 +227,33 @@
 			
 			/* h1, h2, h3, h4, h5, h6 styles */
 			
-			h1{
-				
-			}
+
 			
 			h2 {
-				font: 46px/1.2em "Campton Book", Tahoma, sans-serif;
+				font: 46px/1.2em "Campton Book", Tahoma, sans-serif !important;
 				color: #4e2a84;
 				margin-bottom: 1rem
 			}
 			
 			h3 {
-				font: 34px/1.2em "Campton Bold", Impact, sans-serif;
+				font: 34px/1.2em "Campton Bold", Impact, sans-serif !important;
 				color: #4e2a84;
 				margin-bottom: .5rem
 			}
 			
 			h4{
-				font: 26px/1.2em "Akkurat Pro Regular", Arial, sans-serif;
+				font: 26px/1.2em "Akkurat Pro Regular", Arial, sans-serif !important;
 				color: #716c6b;
 				margin-bottom: 1rem
 			}
 			h5{
-				font: 21px/1.3em "Akkurat Pro Regular", Arial, sans-serif;
+				font: 21px/1.3em "Akkurat Pro Regular", Arial, sans-serif !important;
 				color: #4e2a84;
 				margin-bottom: 1rem
 			}
 			
 			h6{
-				font: 18px/1.3em "Campton Bold", Impact, sans-serif;
+				font: 18px/1.3em "Campton Bold", Impact, sans-serif !important;
 				color: #716c6b;
 				margin-bottom: 1rem
 			}
