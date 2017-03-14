@@ -159,34 +159,57 @@
 			
 			/* nav style */
 			
-			.button{ 	
-					    font: 16px "Akkurat Pro Bold", "Arial Black", sans-serif;
-					    color: #fff;
-					    background: #4e2a84;
-					    text-align: center;
-					    text-decoration: none;
-					    text-transform: uppercase;
-					    font-weight: normal;
-					    margin: 0 .5em .5em 0;
-					    padding: .8em 1em .7em 1em;
-					    cursor: pointer;
-					    -webkit-tap-highlight-color: transparent;
-					    display: inline-block;
-					    vertical-align: middle;
-					    -webkit-transform: translateZ(0);
-					    transform: translateZ(0);
-					    box-shadow: 0 0 1px transparent;
-					    -webkit-backface-visibility: hidden;
-					    backface-visibility: hidden;
-					    -moz-osx-font-smoothing: grayscale;
-					    position: relative;
-					    -webkit-transition-property: color;
-					    transition-property: color;
-					    -webkit-transition-duration: 0.2s;
-					    transition-duration: 0.2s;
-					    min-width: 165px;
-					    border: none;
-					}
-			.buton:hover{
-				-webkit-transform: scaleX(1);
+			.button-block{
+				text-align: center;
+				padding-top: 10px;
+			}
+			
+			.btn.branded{
+				text-align: center;
+				background: #4e2a84;
+				font-family: 'Akkurat Pro Regular', arial, sans-serif !important;
+				color: #ffffff;
+				text-decoration: none;
+			    text-transform: uppercase;
+			    font-weight: normal;
+			    margin: 0 .5em .5em 0;
+			    padding: .8em 1em .7em 1em;
+			    cursor: pointer;
+			    -webkit-tap-highlight-color: transparent;
+			    display: inline-block;
+			    vertical-align: middle;
+			    -webkit-transform: translateZ(0);
+			    transform: translateZ(0);
+			    box-shadow: 0 0 1px transparent;
+			    -webkit-backface-visibility: hidden;
+			    backface-visibility: hidden;
+			    -moz-osx-font-smoothing: grayscale;
+			    position: relative;
+			    -webkit-transition-property: color;
+			    transition-property: color;
+			    -webkit-transition-duration: 0.4s;
+			    transition-duration: 0.4s;
+			    min-width: 165px;
+			    border: none
+			}
+			
+			.btn.branded:before{
+				content: "";
+			    position: absolute;
+			    z-index: -1;
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    background: #b6acd1;
+			    -webkit-transform: scaleX(0);
+			    transform: scaleX(0);
+			    -webkit-transform-origin: 0 50%;
+			    transform-origin: 0 50%;
+			    -webkit-transition-property: transform;
+			    transition-property: transform;
+			    -webkit-transition-duration: 0.4s;
+			    transition-duration: 0.4s;
+			    -webkit-transition-timing-function: ease-out;
+			    transition-timing-function: ease-out;
 			}
