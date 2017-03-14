@@ -213,3 +213,7 @@
 			    -webkit-transition-timing-function: ease-out;
 			    transition-timing-function: ease-out;
 			}
+			.btn.branded:hover:before{
+			    -webkit-transform: scaleX(1);
+			    transform: scaleX(1);
+			}
