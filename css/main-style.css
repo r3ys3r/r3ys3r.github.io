@@ -75,34 +75,34 @@
 			/* FONT EXAMPLE */
 			
 			.akkurat-regular{
-				font-family: "Akkurat Pro Regular", sans-serif !important;
+				font: "Akkurat Pro Regular", sans-serif !important;
 			}
 			.akkurat-light{
-				font-family: "Akkurat Pro Light", sans-serif !important;
+				font: "Akkurat Pro Light", sans-serif !important;
 			}
 			.akkurat-light-italic{
-				font-family: "Akkurat Pro Light Italic", sans-serif !important;
+				font: "Akkurat Pro Light Italic", sans-serif !important;
 			}
 			.akkurat-bold{
-				font-family: "Akkurat Pro Bold", sans-serif !important;
+				font: "Akkurat Pro Bold", sans-serif !important;
 			}
 			.akkurat-bold-italic{
-				font-family: "Akkurat Pro Bold Italic", sans-serif !important;
+				font: "Akkurat Pro Bold Italic", sans-serif !important;
 			}
 			.akkurat-italic{
-				font-family: "Akkurat Pro Italic", sans-serif !important;
+				font: "Akkurat Pro Italic", sans-serif !important;
 			}
 			.campton-book{
-				font-family: "Campton Book", sans-serif !important;
+				font: "Campton Book", sans-serif !important;
 			}
 			.campton-bold{
-				font-family: "Campton Bold", sans-serif !important;
+				font: "Campton Bold", sans-serif !important;
 			}
 			.campton-extra-bold{
-				font-family: "Campton Extra Bold", sans-serif !important;
+				font: "Campton Extra Bold", sans-serif !important;
 			}
 			.campton-extra-light{
-				font-family: "Campton Extra Light", sans-serif !important;
+				font: "Campton Extra Light", sans-serif !important;
 			}
 			
 			/* FONT STACK Ends here */
