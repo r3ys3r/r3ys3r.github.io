@@ -80,7 +80,7 @@
 			body{
 				background: #401F68;
 				color: white;
-				font-family: "Akkurat Pro Regular", sans-serif;
+				font-family: "Akkurat Pro Regular", sans-serif !important;
 			}
 						/* FONT EXAMPLE */
 			
