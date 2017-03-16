@@ -82,47 +82,7 @@
 				color: white;
 				font-family: "Akkurat Pro Regular", sans-serif !important;
 			}
-						/* FONT EXAMPLE */
-			
-			span.akkurat-regular{
-				font-famiy: "Akkurat Pro Regular", sans-serif !important;
-			}
-			
-			span.akkurat-light{
-				font-family: "Akkurat Pro Light", sans-serif !important;
-			}
-			
-			span.akkurat-light-italic{
-				font-family: "Akkurat Pro Light Italic", sans-serif !important;
-			}
-			
-			span.akkurat-bold{
-				font-family: "Akkurat Pro Bold", sans-serif !important;
-			}
-			
-			span.akkurat-bold-italic{
-				font-family: "Akkurat Pro Bold Italic", sans-serif !important;
-			}
-			
-			span.akkurat-italic{
-				font-family: "Akkurat Pro Italic", sans-serif !important;
-			}
-			
-			span.campton-book{
-				font-family: "Campton Book", sans-serif !important;
-			}
-			
-			span.campton-bold{
-				font-family: "Campton Bold", sans-serif !important;
-			}
-			
-			span.campton-extra-bold{
-				font-family: "Campton Extra Bold", sans-serif !important;
-			}
-			
-			span.campton-extra-light{
-				font-family: "Campton Extra Light", sans-serif !important;
-			}
+
 			
 			.headlines{
 				font-family: "Campton Bold", sans-serif !important;
@@ -301,4 +261,46 @@
 				font: 18px/1.3em "Campton Bold", Impact, sans-serif !important;
 				color: #716c6b;
 				margin-bottom: 1rem
+			}
+			
+									/* FONT EXAMPLE */
+			
+			span.akkurat-regular{
+				font-famiy: "Akkurat Pro Regular", sans-serif !important;
+			}
+			
+			span.akkurat-light{
+				font-family: "Akkurat Pro Light", sans-serif !important;
+			}
+			
+			span.akkurat-light-italic{
+				font-family: "Akkurat Pro Light Italic", sans-serif !important;
+			}
+			
+			span.akkurat-bold{
+				font-family: "Akkurat Pro Bold", sans-serif !important;
+			}
+			
+			span.akkurat-bold-italic{
+				font-family: "Akkurat Pro Bold Italic", sans-serif !important;
+			}
+			
+			span.akkurat-italic{
+				font-family: "Akkurat Pro Italic", sans-serif !important;
+			}
+			
+			span.campton-book{
+				font-family: "Campton Book", sans-serif !important;
+			}
+			
+			span.campton-bold{
+				font-family: "Campton Bold", sans-serif !important;
+			}
+			
+			span.campton-extra-bold{
+				font-family: "Campton Extra Bold", sans-serif !important;
+			}
+			
+			span.campton-extra-light{
+				font-family: "Campton Extra Light", sans-serif !important;
 			}
