@@ -1,7 +1,6 @@
 /* FONT STACK starts here */
 			
-			@font-face,
-			.akkurat-light {
+			@font-face {
 			    font-family: "Akkurat Pro Light";
 			    src: url("http://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
 			    font-weight: normal;
@@ -78,6 +77,41 @@
 			    src: url("http://common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff");
 			    font-weight: normal;
 			    font-style: normal
+			}
+			
+			
+			
+			/* FONT EXAMPLE */
+			
+			.akkurat-regular{
+				font-family: "Akkurat Pro Regular", sans-serif;
+			}
+			.akkurat-light{
+				font-family: "Akkurat Pro Light", sans-serif;
+			}
+			.akkurat-light-italic{
+				font-family: "Akkurat Pro Light Italic", sans-serif;
+			}
+			.akkurat-bold{
+				font-family: "Akkurat Pro Bold", sans-serif;
+			}
+			.akkurat-bold-italic{
+				font-family: "Akkurat Pro Bold Italic", sans-serif;
+			}
+			.akkurat-italic{
+				font-family: "Akkurat Pro Italic", sans-serif;
+			}
+			.campton-book{
+				font-family: "Campton Book"
+			}
+			.campton-bold{
+				font-family: "Campton Bold", sans-serif;
+			}
+			.campton-extra-bold{
+				font-family: "Campton Extra Bold", sans-serif;
+			}
+			.campton-extra-light{
+				font-family: "Campton Extra Light", sans-serif;
 			}
 			
 			/* FONT STACK Ends here */
