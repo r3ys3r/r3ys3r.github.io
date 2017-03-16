@@ -72,7 +72,17 @@
 			
 			
 			
-			/* FONT EXAMPLE */
+
+			
+			/* FONT STACK Ends here */
+			
+/* 			BASE OVERRIDES */
+			body{
+				background: #401F68;
+				color: white;
+				font-family: "Akkurat Pro Regular", sans-serif;
+			}
+						/* FONT EXAMPLE */
 			
 			span.akkurat-regular{
 				font: "Akkurat Pro Regular", sans-serif !important;
@@ -103,14 +113,6 @@
 			}
 			span.campton-extra-light{
 				font: "Campton Extra Light", sans-serif !important;
-			}
-			
-			/* FONT STACK Ends here */
-			
-/* 			BASE OVERRIDES */
-			body{
-				background: #401F68;
-				color: white;
 			}
 			
 			.headlines{
